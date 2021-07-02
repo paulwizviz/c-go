@@ -1,7 +1,7 @@
 package mylib
 
-// #cgo LDFLAGS: -L./clib -lsum
-// #cgo CFLAGS: -I./clib
+// #cgo LDFLAGS: -L./ -lsum
+// #cgo CFLAGS: -I./
 // #include "sum.h"
 import "C"
 
