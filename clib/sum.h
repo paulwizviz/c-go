@@ -1,1 +1,0 @@
-void sum(int lhs, int rhs);
